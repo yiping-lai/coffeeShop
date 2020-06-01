@@ -5,9 +5,10 @@ from jose import jwt
 from urllib.request import urlopen
 from flask import abort
 
-AUTH0_DOMAIN = 'ypdev.auth0.com'
+## TODO: Please fill in your auth0 information
+AUTH0_DOMAIN = 'XXX.auth0.com'
 ALGORITHMS = ['RS256']
-API_AUDIENCE = 'coffeshop'
+API_AUDIENCE = 'XXXXX'
 
 ## AuthError Exception
 '''
